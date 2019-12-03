@@ -23,7 +23,7 @@ public class Bug3458246 {
             processRequest(frontendRequest, messageEvent, "CHANNEL_IMAGES");
             break;
         default:
-            LOGGER.warning("Can't match " + frontEndUrl);
+            LOGGER.finest("Can't match " + frontEndUrl);
 
             return;
         }
